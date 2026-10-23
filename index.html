@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultra-Left | Héros</title>
+    <title>Ultra-Left | Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,51 +13,44 @@
         <a href="index.html" class="logo">ULTRA<span>-</span>LEFT</a>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="heroes.html" class="active">Héros</a></li>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="heroes.html">Héros</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Section Liste des Héros -->
-    <main class="heroes-container">
-        <div class="heroes-header">
-            <h1>Les Figures de <span>l'Alliance</span></h1>
-            <p>Découvrez les visages et les parcours de ceux qui mènent le combat au quotidien.</p>
+    <!-- Section Héroïque (Accueil) -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Résistance & Action</span>
+            <h1>Le pouvoir au peuple <span>.</span></h1>
+            <p>Bienvenue dans l'univers d'Ultra-Left. Face aux injustices du multivers capitaliste, notre alliance se dresse pour porter la voix des sans-voix et réécrire les règles du jeu.</p>
+            <div class="cta-group">
+                <a href="heroes.html" class="btn btn-primary">Découvrir les Héros</a>
+                <a href="#about" class="btn btn-secondary">Notre Manifeste</a>
+            </div>
         </div>
-
-        <div class="heroes-grid">
-            <!-- Jean-Luc Mélenchon -->
-            <article class="hero-card">
-                <div class="hero-img-container">
-                    <img src="https://hanslucas.com/db/1/pict/zoom/1733183.jpg" alt="Jean-Luc Mélenchon">
+        
+        <div class="hero-visual">
+            <div class="spider-card">
+                <div class="card-info">
+                    <h3>Alliance Solidaire</h3>
+                    <p>Une force collective unie pour bousculer l'ordre établi et défendre le bien commun.</p>
                 </div>
-                <span class="hero-badge">Tribun Suprême</span>
-                <h3>Jean-Luc Mélenchon</h3>
-                <p>Maître incontesté des estrades et de la rhétorique enflammée. Capable de convoquer une VIe République en un claquement de doigts.</p>
-            </article>
-
-            <!-- Bally Bagayoko -->
-            <article class="hero-card">
-                <div class="hero-img-container">
-                    <img src="https://www.ballybagayoko.com/wp-content/uploads/2025/11/Bally-Bagayoko-LFI-Saint-Denis-Pierrefitte-09-scaled.jpg" alt="Bally Bagayoko">
-                </div>
-                <span class="hero-badge">Gardien du Terrain</span>
-                <h3>Bally Bagayoko</h3>
-                <p>Figure militante de terrain infatigable, engagée pour la justice sociale et la défense des quartiers populaires avec une énergie redoutable.</p>
-            </article>
-
-            <!-- Philippe Poutou -->
-            <article class="hero-card">
-                <div class="hero-img-container">
-                    <img src="https://hanslucas.com/db/1/pict/zoom/1487719.jpg" alt="Philippe Poutou">
-                </div>
-                <span class="hero-badge">L'Indestructible</span>
-                <h3>Philippe Poutou</h3>
-                <p>Armé de son franc-parler légendaire et de son calme olympien, il désarçonne ses adversaires avec un pragmatisme implacable.</p>
-            </article>
+            </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Présentation générale / Manifeste -->
+    <section id="about" style="padding: 6rem 10%; background: rgba(7, 13, 21, 0.5); border-top: 1px solid rgba(226, 28, 33, 0.1);">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <span class="hero-tag" style="margin-bottom: 1rem;">Présentation Générale</span>
+            <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem;">Qui sommes-nous ?</h2>
+            <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                Ultra-Left rassemble les figures les plus déterminées de la lutte sociale et politique. Inspirés par l'énergie des mouvements populaires et armés d'une conviction inébranlable, nous refusons la résignation. Sur les plateaux comme sur le terrain, notre mission est claire : éveiller les consciences et bâtir un rempart face aux dérives du système.
+            </p>
+        </div>
+    </section>
 
 </body>
 </html>
